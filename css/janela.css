@@ -1,0 +1,72 @@
+#fundo{
+	z-index: 9898989999;
+	background: #34495e;
+	width: 300px;
+    position: absolute;
+	height:100%;
+	top:0;
+	display: block;
+	right: 0;
+
+}
+#topo{
+	width:100%;
+	height:50px;
+	background: #fff;
+    box-shadow: 0 1px 2px #071220;
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+
+#foto{
+
+	float: left;
+	width: 24px;
+	height: 24px;
+	background: #ccc;
+	margin: 13px;
+ 
+
+}
+#box-esquerdo{
+	float: left;
+	
+
+}
+#nomeUSer{
+	font-size: 20px;
+	margin: 10px;
+}
+#iconConfig{
+	width: 24px;
+	height: 24px;
+	
+	float: right;
+	margin-right:  10px;
+	margin-top: 10px;
+	cursor: pointer;
+	
+}
+#corpoPOP{
+	width: 100%;
+	height:80%;
+	top: 55px;
+	position: absolute;
+}
+#userContato{
+	background: #2c3e50;
+	width: 50%;
+	height: 100%;
+	left:0px;
+	top:0px;
+}
+#MsnCampo{}
+#footerPOP{
+	width:100%;
+	height:10%;
+	position: absolute;
+	bottom:10px;
+	top: 88%;
+	background:#fff;
+}

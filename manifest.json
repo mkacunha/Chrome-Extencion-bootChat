@@ -1,0 +1,38 @@
+{
+	"name":"ChatBot",
+	"version":"2.0",
+	"description":"Personalise sua resposta para Messenger",
+
+	"icons": {
+       "19": "icon-on.png",
+       "128":"icon-on.png"
+    }, 
+
+    "page_action": {
+        "default_icon": {
+            "19" : "icon-on.png"
+            
+        },
+        //"default_popup":"pop.html",
+        "default_title": "ChatBot"
+    },
+
+
+	
+
+	"permissions":["storage", "notifications", "tabs",  "https://www.facebook.com/*", "declarativeContent", "activeTab", "cookies"],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+
+    "content_scripts": [ {
+        "js": ["main.js", "js/jquery-3.3.1.min.js" ],
+        "css": [ "css/janela.css" ],
+        "matches": [ "https://www.facebook.com/*" ]
+    } ],
+
+   
+
+    "manifest_version":2
+}
